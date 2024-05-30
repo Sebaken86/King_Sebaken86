@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probando el código java</title>
+    <link rel="stylesheet" href="assets/scss/proyecto.css">
+      
+</head>
+<body>
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-12">
+                <h1>Hola tu compañeros </h1>
+                <hr>
+                <p>Agregar botones puedo saludas compañeros su nombre</p>
+
+                
+                
+
+<!-- Button trigger modal -->
+
+<!-- data-bs-target es el atributo que llama al identificador que va a abrir -->
+
+<!-- data-bs-toggle es el atributo que me dice que componente voy a ejecutar -->
+
+<!-- agregar un atributo data especial para traer ese contenido con una función -->
+
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola su nombre 1" data-contenido="joaquin">
+  Compañeros 1
+</button>
+
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola su nombre 2" data-contenido="Lesly">
+  Compañeros 2
+</button>
+
+<button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola su nombre 3" data-contenido="Natalina">
+    Compañeros 3
+</button>
+
+<button type="button" class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola su nombre 4" data-contenido="Daniel">
+    Compañeros 4
+</button>
+
+<button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#ventanaEmergente" data-titulo="Hola su nombre 5" data-contenido="Sebastián">
+    Compañeros 5
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="ventanaEmergente" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="tituloModal">Ejemplo de modal</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+        <button type="button" class="btn btn-primary">Abrir</button>
+      </div>
+    </div>
+  </div>
+</div>
+                
+
+    <script src="assets/bootstrap-5.3.3/dist/js/bootstrap.bundle.js"></script>
+    <script src="scripte.js"></script>
+</body>
+</html>
